@@ -4,7 +4,15 @@ ignore:
     - node-uuid:
         reason: Test reason
         expires: '2100-01-01T00:00:00.000Z'
-patch:
+  'npm:qs:20140806':
+    - qs:
+        reason: Test reason
+        expires: '2100-01-01T00:00:00.000Z'
+  'npm:qs:20140806-1':
+    - qs:
+        reason: Test reason
+        expires: '2100-01-01T00:00:00.000Z'
   'npm:mongoose:20160116':
     - mongoose:
-        patched: '2016-10-24T10:50:51.980Z'
+        reason: Test reason
+        expires: '2100-01-01T00:00:00.000Z'
