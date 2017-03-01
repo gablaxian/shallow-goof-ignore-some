@@ -12,6 +12,10 @@ ignore:
     - qs:
         reason: Test reason
         expires: '2100-01-01T00:00:00.000Z'
+  'npm:qs:20170213':
+    - qs:
+        reason: Test reason
+        expires: '2100-01-01T00:00:00.000Z'        
   'npm:mongoose:20160116':
     - mongoose:
         reason: Test reason
