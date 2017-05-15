@@ -18,11 +18,60 @@ ignore:
     - qs:
         reason: Test reason
         expires: '2100-01-01T00:00:00.000Z'
-      snyk > request > qs:
+    - snyk > request > qs:
         reason: '`request` needs fixin'''
         expires: '2100-01-01T00:00:00.000Z'
   'npm:mongoose:20160116':
     - mongoose:
         reason: Test reason
         expires: '2100-01-01T00:00:00.000Z'
+  'npm:ms:20170412':
+    - mongoose > ms:
+        reason: None given
+        expires: '2017-06-14T18:48:42.354Z'
+    - mongoose > mquery > debug > ms:
+        reason: None given
+        expires: '2017-06-14T18:48:42.355Z'
+    - snyk > debug > ms:
+        reason: None given
+        expires: '2017-06-14T18:48:42.355Z'
+    - snyk > snyk-config > debug > ms:
+        reason: None given
+        expires: '2017-06-14T18:48:42.355Z'
+    - snyk > snyk-module > debug > ms:
+        reason: None given
+        expires: '2017-06-14T18:48:42.355Z'
+    - snyk > snyk-policy > debug > ms:
+        reason: None given
+        expires: '2017-06-14T18:48:42.355Z'
+    - snyk > snyk-resolve > debug > ms:
+        reason: None given
+        expires: '2017-06-14T18:48:42.393Z'
+    - snyk > snyk-resolve-deps > debug > ms:
+        reason: None given
+        expires: '2017-06-14T18:48:42.393Z'
+    - snyk > snyk-try-require > debug > ms:
+        reason: None given
+        expires: '2017-06-14T18:48:42.394Z'
+    - snyk > snyk-policy > snyk-module > debug > ms:
+        reason: None given
+        expires: '2017-06-14T18:48:42.413Z'
+    - snyk > snyk-policy > snyk-resolve > debug > ms:
+        reason: None given
+        expires: '2017-06-14T18:48:42.413Z'
+    - snyk > snyk-resolve-deps > snyk-resolve > debug > ms:
+        reason: None given
+        expires: '2017-06-14T18:48:42.414Z'
+    - snyk > snyk-policy > snyk-try-require > debug > ms:
+        reason: None given
+        expires: '2017-06-14T18:48:42.414Z'
+    - snyk > snyk-resolve-deps > snyk-try-require > debug > ms:
+        reason: None given
+        expires: '2017-06-14T18:48:42.414Z'
+    - snyk > snyk-resolve-deps > clite > debug > ms:
+        reason: None given
+        expires: '2017-06-14T18:48:42.414Z'
+    - snyk > snyk-resolve-deps > snyk-module > debug > ms:
+        reason: None given
+        expires: '2017-06-14T18:48:42.453Z'
 patch: {}
