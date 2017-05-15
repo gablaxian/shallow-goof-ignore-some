@@ -18,11 +18,15 @@ ignore:
     - qs:
         reason: Test reason
         expires: '2100-01-01T00:00:00.000Z'
-      snyk > request > qs:
+    - snyk > request > qs:
         reason: '`request` needs fixin'''
         expires: '2100-01-01T00:00:00.000Z'
   'npm:mongoose:20160116':
     - mongoose:
         reason: Test reason
+        expires: '2100-01-01T00:00:00.000Z'
+  'npm:ms:20170412':
+    - '*':
+        reason: None given
         expires: '2100-01-01T00:00:00.000Z'
 patch: {}
