@@ -29,4 +29,10 @@ ignore:
     - '*':
         reason: None given
         expires: '2100-01-01T00:00:00.000Z'
-patch: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ms:20170412':
+    - mongoose > ms:
+        patched: '2017-05-20T06:23:11.314Z'
+    - mongoose > mquery > debug > ms:
+        patched: '2017-05-20T06:23:11.314Z'
