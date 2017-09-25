@@ -29,4 +29,8 @@ ignore:
     - '*':
         reason: None given
         expires: '2100-01-01T00:00:00.000Z'
+  'npm:debug:20170905':
+    - '*':
+        reason: None given
+        expires: '2100-01-01T00:00:00.000Z'
 patch: {}
