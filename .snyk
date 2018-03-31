@@ -36,8 +36,8 @@ ignore:
   'npm:bson:20180225':
     - mongoose > bson:
         reason: None given
-        expires: '2018-03-29T18:18:06.768Z'
+        expires: '2100-01-01T00:00:00.000Z'
     - mongoose > mongodb > mongodb-core > bson:
         reason: None given
-        expires: '2018-03-29T18:18:06.768Z'
+        expires: '2100-01-01T00:00:00.000Z'
 patch: {}
