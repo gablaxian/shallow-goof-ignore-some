@@ -25,14 +25,6 @@ ignore:
     - mongoose:
         reason: Test reason
         expires: '2100-01-01T00:00:00.000Z'
-  'npm:ms:20170412':
-    - '*':
-        reason: None given
-        expires: '2100-01-01T00:00:00.000Z'
-  'npm:debug:20170905':
-    - '*':
-        reason: None given
-        expires: '2100-01-01T00:00:00.000Z'
   'npm:bson:20180225':
     - mongoose > bson:
         reason: None given
